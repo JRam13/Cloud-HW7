@@ -1,0 +1,55 @@
+
+{
+  "Statement": [
+    {
+      "Sid": "Stmt1369523660920",
+      "Action": [
+        "cloudfront:*"
+      ],
+      "Effect": "Allow",
+      "Resource": [
+        "*"
+      ]
+    },
+    {
+      "Sid": "Stmt1369523674786",
+      "Action": [
+        "ec2:*"
+      ],
+      "Effect": "Allow",
+      "Resource": [
+        "*"
+      ]
+    },
+    {
+      "Sid": "Stmt1369523741652",
+      "Action": [
+        "s3:*"
+      ],
+      "Effect": "Allow",
+      "Resource": [
+        "*"
+      ]
+    },
+    {
+      "Sid": "Stmt1369523751352",
+      "Action": [
+        "sns:*"
+      ],
+      "Effect": "Allow",
+      "Resource": [
+        "*"
+      ]
+    },
+    {
+      "Sid": "Stmt1369523761138",
+      "Action": [
+        "sdb:*"
+      ],
+      "Effect": "Allow",
+      "Resource": [
+        "*"
+      ]
+    }
+  ]
+}
